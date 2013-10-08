@@ -12,7 +12,6 @@ class Package (models.Model):
 	ee403r = models.CharField(max_length=50)
 	ee403d = models.CharField(max_length=50)
 	ee404r = models.CharField(max_length=50)
-	ee404d = models.CharField(max_length=50)
 	es1406r = models.CharField(max_length=50)
 	es1406d = models.CharField(max_length=50)
 	es1407r = models.CharField(max_length=50)
