@@ -1,0 +1,17 @@
+<html>
+<body>
+
+<h1>My Packages</h1>
+
+{% if packages %}
+	<ul>
+	{% for pkg in packages %}
+		<li><a href="/rstates/{{ pkg.id }}/"</a></a></li>
+	{% endfor %}
+	</ul>
+{% else %}
+	<p>No packages available</p>
+{% endif %}
+
+</body>
+</html>
